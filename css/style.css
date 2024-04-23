@@ -33,6 +33,7 @@ a {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 600;
 }
 
 
@@ -40,7 +41,7 @@ a {
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 16px 100px;
-    font-size: 19px;
+    font-size: 18px;
     display: flex;
     flex: 1;
     align-items: center;
@@ -73,3 +74,44 @@ a {
     align-items:flex-start;
     gap: 8px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    font-size: 12px;
+}
+
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    text-align: center;
+    gap: 8px;
+}
+
+.card-image {
+    height: 150px;
+    width: 150px;
+    border: solid #3882F6;
+    border-radius: 8px;
+}
+
