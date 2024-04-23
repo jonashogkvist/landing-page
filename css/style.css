@@ -1,117 +1,177 @@
 body {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .header {
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 100px;
-    align-items: center;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 100px;
+  align-items: center;
 }
 
 .header-links {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 16px;
 }
 
 a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .header-logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: 600;
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 600;
 }
 
-
 .splash-screen {
-    background-color: #1F2937;
-    color: #E5E7EB;
-    padding: 16px 100px;
-    font-size: 18px;
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 90px 100px;
+  font-size: 18px;
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .splash-screen .main-text {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 700;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .splash-screen button {
-    background-color: #3882F6;
-    color: #E5E7EB;
-    padding: 6px 30px;
-    border: none;
-    border-radius: 8px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 8px;
 }
 
 .splash-screen img {
-    width: 350px;
+  width: 350px;
 }
 
 .intro {
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items:flex-start;
-    gap: 8px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
 }
 
 .information {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 100px;
-    font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  font-size: 12px;
 }
 
 .info-title {
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 900;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .illustrations {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 110px;
-    text-align: center;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+  text-align: center;
+  gap: 8px;
 }
 
 .card-image {
-    height: 150px;
-    width: 150px;
-    border: solid #3882F6;
-    border-radius: 8px;
+  height: 150px;
+  width: 150px;
+  border: solid #3882f6;
+  border-radius: 8px;
 }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 300px;
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  width: 800px;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  flex: 1;
+}
+
+.quote-author {
+  font-weight: 700;
+  flex: 1;
+  align-self: center;
+  padding: 0 0 0 500px; 
+  white-space: nowrap;
+}
+
+.sign-up {
+  display: flex;
+  padding: 60px 100px;
+  margin: auto;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 16px 60px;
+  height: 80px;
+  width: 600px;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.blue-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.blue-box button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 6px 30px;
+  border: solid 2px;
+  border-radius: 8px;
+  font-weight: 700;
+}
